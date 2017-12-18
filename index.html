@@ -1,250 +1,438 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-       
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="keywords" content="">
-        <meta charset="utf-8">
 
+<head>
 
-        <title>PAYNET - Payment Network Bangladesh</title>
-        
-		
-		
-        <!--
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta charset="utf-8">
+
+    <title>PAYNET - Payment Network Bangladesh</title>
+
+    <!--
         Google Fonts
         ============================================= -->
 
-        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,700italic,300italic">
-        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900">
-        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald:400,300,700">
-        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arvo:400,700">
-        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Dosis:800,700">
-        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Great+Vibes">
-        
-		
-        <!--
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,700italic,300italic">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald:400,300,700">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arvo:400,700">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Dosis:800,700">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Great+Vibes">
+
+    <!--
         CSS
         ============================================= -->
-        <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
-        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
-        <link type="text/css" rel="stylesheet" href="css/jquery.bxslider.css">
-        <link type="text/css" rel="stylesheet" href="js/vendor/owl.carousel.css">
-        <link type="text/css" rel="stylesheet" href="css/magnific-popup.css">
-        <link type="text/css" rel="stylesheet" href="css/lightbox.css">
-        <link type="text/css" rel="stylesheet" href="css/icomoon.css">
-        <link type="text/css" rel="stylesheet" href="css/flaticon.css">
-        <link type="text/css" rel="stylesheet" href="css/supersized.css">
-        <link type="text/css" rel="stylesheet" href="css/bootstrap-timepicker.css">
-        <link type="text/css" rel="stylesheet" href="css/jquery-ui.min.css">
-        <link type="text/css" rel="stylesheet" href="css/animate.css">
-        <link type="text/css" rel="stylesheet" href="css/multiscroll.css">
-        <link type="text/css" rel="stylesheet" href="css/selectize.default.css">
-        <link type="text/css" rel="stylesheet" href="css/jquery.fullPage.css">
-        <link type="text/css" rel="stylesheet" href="css/bbpress.css">
-        <link type="text/css" rel="stylesheet" href="css/jquery.timepicker.css">
-       
-     
-        <link type="text/css" rel="stylesheet" href="syntax-highlighter/scripts/prettify.min.css">
-        <!-- Shortcodes main stylesheet -->
-        <link type="text/css" rel="stylesheet" href="shortcodes/css/prettyPhoto.css">
-        <link type="text/css" rel="stylesheet" href="shortcodes/css/eislideshow.css">
-        <link type="text/css" rel="stylesheet" href="shortcodes/css/nivo-slider.css">
-        <link type="text/css" rel="stylesheet" href="shortcodes/css/liteaccordion.css">
-        <link type="text/css" rel="stylesheet" href="shortcodes/css/flexslider.css">
-        <link type="text/css" rel="stylesheet" href="shortcodes/css/iconmoon.css">
-        <link type="text/css" rel="stylesheet" href="shortcodes/css/slicebox.css">
-        <link type="text/css" rel="stylesheet" href="shortcodes/css/camera.css">
-        <link type="text/css" rel="stylesheet" href="shortcodes/css/main.css">
-        <link type="text/css" rel="stylesheet" href="shortcodes/css/media-queries.css">
-        <!-- Main Stylesheet -->
-        <link type="text/css" rel="stylesheet" href="css/main.css">
-        <!-- CSS media queries -->
-        <link type="text/css" rel="stylesheet" href="css/media-queries.css">
-   
-   
-   
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/jquery.bxslider.css">
+    <link type="text/css" rel="stylesheet" href="js/vendor/owl.carousel.css">
+    <link type="text/css" rel="stylesheet" href="css/magnific-popup.css">
+    <link type="text/css" rel="stylesheet" href="css/lightbox.css">
+    <link type="text/css" rel="stylesheet" href="css/icomoon.css">
+    <link type="text/css" rel="stylesheet" href="css/flaticon.css">
+    <link type="text/css" rel="stylesheet" href="css/supersized.css">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap-timepicker.css">
+    <link type="text/css" rel="stylesheet" href="css/jquery-ui.min.css">
+    <link type="text/css" rel="stylesheet" href="css/animate.css">
+    <link type="text/css" rel="stylesheet" href="css/multiscroll.css">
+    <link type="text/css" rel="stylesheet" href="css/selectize.default.css">
+    <link type="text/css" rel="stylesheet" href="css/jquery.fullPage.css">
+    <link type="text/css" rel="stylesheet" href="css/bbpress.css">
+    <link type="text/css" rel="stylesheet" href="css/jquery.timepicker.css">
 
-    </head>
+    <link type="text/css" rel="stylesheet" href="syntax-highlighter/scripts/prettify.min.css">
+    <!-- Shortcodes main stylesheet -->
+    <link type="text/css" rel="stylesheet" href="shortcodes/css/prettyPhoto.css">
+    <link type="text/css" rel="stylesheet" href="shortcodes/css/eislideshow.css">
+    <link type="text/css" rel="stylesheet" href="shortcodes/css/nivo-slider.css">
+    <link type="text/css" rel="stylesheet" href="shortcodes/css/liteaccordion.css">
+    <link type="text/css" rel="stylesheet" href="shortcodes/css/flexslider.css">
+    <link type="text/css" rel="stylesheet" href="shortcodes/css/iconmoon.css">
+    <link type="text/css" rel="stylesheet" href="shortcodes/css/slicebox.css">
+    <link type="text/css" rel="stylesheet" href="shortcodes/css/camera.css">
+    <link type="text/css" rel="stylesheet" href="shortcodes/css/main.css">
+    <link type="text/css" rel="stylesheet" href="shortcodes/css/media-queries.css">
+    <!-- Main Stylesheet -->
+    <link type="text/css" rel="stylesheet" href="css/main.css">
+    <!-- CSS media queries -->
+    <link type="text/css" rel="stylesheet" href="css/media-queries.css">
 
+</head>
 
-            <header id="head" class="navbar-default header3 sticky-header">
-                <div class="header-top opened">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6 col-md-6">
-                                <ul class="social-links text-left">
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-6 col-md-6">
-                                <nav class="top-nav">
-                                    <ul class="text-right">
-                                        <li><a href="#">Merchant Login</a></li>
-                                        <li><a href="#">Support</a></li>
-                                        <li><a href="#">For New Sales Enquiry  +088000000000</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
+<body>
+
+    <header id="head" class="navbar-default header3 sticky-header">
+        <div class="header-top opened">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6">
+                        <ul class="social-links text-left">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        </ul>
                     </div>
-                </div>
-
-                <div class="container">
-                    <div class="mega-menu-wrapper border nav3 clearfix">
-                        <div class="navbar-header">
-                            <!-- responsive nav button -->
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <!-- /responsive nav button -->
-                            <a href="" class="navbar-brand">
-                                <img style="width:150px" src="images/paynet-logo-png-3.png" alt="">
-                            </a>
-                        </div>
-                        <div class="pull-right">
-                      
-                        </div>
-                        <!-- main nav -->
-                        <nav class="collapse navbar-collapse navbar-right">
-                            <ul class="nav navbar-nav">
-                                <li class="current"><a href="#start">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Clients</a></li>
-                                <li><a href="#">Security</a></li>
-								<li><a href="#">Features</a></li>
-								<li><a href="#">Pricing</a></li>
-								<li><a href="#">FAQ</a></li>
-								<li><a href="#gallery">Contact</a></li>
+                    <div class="col-sm-6 col-md-6">
+                        <nav class="top-nav">
+                            <ul class="text-right">
+                                <li><a href="#">Merchant Login</a></li>
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">For New Sales Enquiry  +088000000000</a></li>
                             </ul>
                         </nav>
-                        <!-- /main nav -->
                     </div>
                 </div>
-            </header>
+            </div>
+        </div>
 
-            <!--
+        <div class="container">
+            <div class="mega-menu-wrapper border nav3 clearfix">
+                <div class="navbar-header">
+                    <!-- responsive nav button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- /responsive nav button -->
+                    <a href="" class="navbar-brand">
+                        <img style="width:150px" src="images/paynet-logo-png-3.png" alt="">
+                    </a>
+                </div>
+                <div class="pull-right">
+
+                </div>
+                <!-- main nav -->
+                <nav class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="current"><a href="#start">Home</a></li>
+                        <li><a href="#about">About</a></li>
+						<li><a href="#features">Features</a></li>
+                        <li><a href="#">Clients</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#gallery">Contact</a></li>
+                    </ul>
+                </nav>
+                <!-- /main nav -->
+            </div>
+        </div>
+    </header>
+
+    <!--
             Home Banner
             ==================================== -->
-            <div id="start" class="home26 fullscreen">
-                <div class="slide26">
-                    <div class="item fullscreen" style="background-image: url(images/slide-1.png);">
-                        <div class="overlay"></div>
-                        <div class="container fullscreen">
-                            <div class="item-inner">
-                                <h1>its time to upgrade to a <br/> new payment interface</h1>
-						    </div>
-                        </div>
+    <div id="start" class="home26 fullscreen">
+        <div class="slide26">
+            <div class="item fullscreen" style="background-image: url(images/slide-1.png);">
+                <div class="overlay"></div>
+                <div class="container fullscreen">
+                    <div class="item-inner">
+                        <h1>its time to upgrade to a <br/> new payment interface</h1>
                     </div>
-                    <div class="item fullscreen" style="background-image: url(images/slide-2.png);">
-                        <div class="overlay"></div>
-                        <div class="container fullscreen">
-                            <div class="item-inner">
-                                <h1>its time to upgrade to a <br/> new payment interface</h1>
+                </div>
+            </div>
+            <div class="item fullscreen" style="background-image: url(images/slide-2.png);">
+                <div class="overlay"></div>
+                <div class="container fullscreen">
+                    <div class="item-inner">
+                        <h1>its time to upgrade to a <br/> new payment interface</h1>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--
+            End Home Banner
+            ==================================== -->
+			
+	
+	<section id="about" class="service-four">
+            <div class="container">
+                <div class="row">
+                    <header class="col-lg-12 section-head text-center item_top">
+                        <h2>Why <span style="color:#0b578f">PAY</span><span style="color:#fdcf10">NET</span>?</h2>
+                        <p>We are always passionate on new idea generation and development</p>
+                    </header>
+
+                    <div class="col-xs-12 col-sm-6 col-md-4 text-center">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fa fa-cloud"></i>
+                            </div>
+                            <div class="service-desc">
+                                <h4>Boost Your Payment</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed massa eu nibh commodo.</p>
+                                <a href="#" class="more">Learn More</a>
+                            </div>
+                        </div>
+                    </div> <!-- end .service-item -->
+                    
+                    <div class="col-xs-12 col-sm-6 col-md-4 text-center">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fa fa-cogs"></i>
+                            </div>
+                            <div class="service-desc">
+                                <h4>Fraud And Risk Prevention</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed massa eu nibh commodo.</p>
+                                <a href="#" class="more">Learn More</a>
+                            </div>
+                        </div>
+                    </div> <!-- end .service-item -->
+                    
+                    <div class="col-xs-12 col-sm-6 col-md-4 text-center">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fa fa-flash"></i>
+                            </div>
+                            <div class="service-desc">
+                                <h4>Multilingual Page & Responsive web design</h4>
+                              
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed massa eu nibh commodo.</p>
+                                <a href="#" class="more">Learn More</a>
+                            </div>
+                        </div>
+                    </div> <!-- end .service-item -->
+					
+					
+					
+					
+					
+					 <div class="col-xs-12 col-sm-6 col-md-4 text-center">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fa fa-flash"></i>
+                            </div>
+                            <div class="service-desc">
+                                <h4>Turbo Checkout</h4>
+                              
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed massa eu nibh commodo.</p>
+                                <a href="#" class="more">Learn More</a>
+                            </div>
+                        </div>
+                    </div> <!-- end .service-item -->
+					
+					
+					 <div class="col-xs-12 col-sm-6 col-md-4 text-center">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fa fa-flash"></i>
+                            </div>
+                            <div class="service-desc">
+                                <h4>Advanced Analytics For Insights</h4>
+                              
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed massa eu nibh commodo.</p>
+                                <a href="#" class="more">Learn More</a>
+                            </div>
+                        </div>
+                    </div> <!-- end .service-item -->
+					
+					
+					 <div class="col-xs-12 col-sm-6 col-md-4 text-center">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fa fa-flash"></i>
+                            </div>
+                            <div class="service-desc">
+                                <h4>Stable And Highly Secured Transaction</h4>
                            
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed massa eu nibh commodo.</p>
+                                <a href="#" class="more">Learn More</a>
+                            </div>
+                        </div>
+                    </div> <!-- end .service-item -->
+                    
+              
+                </div>
+            </div>
+        </section>
+		
+		
+		
+		<section id="features">
+        <div class="container">
+            <div class="row">
+			
+			   <header class="col-lg-12 section-head text-center item_top">
+                        <h2><span style="color:#0b578f">FEAT</span><span style="color:#fdcf10">URES</span></h2>
+                </header>
+			
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-4">
+                            <!-- Nav tabs -->
+                            <ul role="tablist" class="vtabs-nav">
+                                <li class="active">
+                                    <a data-toggle="tab" role="tab" aria-controls="tab1" href="#tab1">
+                                        <i class="fa fa-laptop"></i>
+                                        Boost Your Payment Success Rate
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-toggle="tab" role="tab" aria-controls="tab2" href="#tab2">
+                                        <i class="fa fa-bar-chart-o"></i>
+                                        Customized experience
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-toggle="tab" role="tab" aria-controls="tab3" href="#tab3">
+                                        <i class="fa fa-briefcase"></i>
+                                        Fastest go to market
+                                    </a>
+                                </li>
+								
+								<li class="">
+                                    <a data-toggle="tab" role="tab" aria-controls="tab1" href="#tab1">
+                                        <i class="fa fa-laptop"></i>
+                                       Enabling International Payments
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-toggle="tab" role="tab" aria-controls="tab2" href="#tab2">
+                                        <i class="fa fa-bar-chart-o"></i>
+                                        Convenience To Your Customer
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-toggle="tab" role="tab" aria-controls="tab3" href="#tab3">
+                                        <i class="fa fa-briefcase"></i>
+                                       Your Business, Your Way
+                                    </a>
+                                </li>
+								
+								<li class="">
+                                    <a data-toggle="tab" role="tab" aria-controls="tab1" href="#tab1">
+                                        <i class="fa fa-laptop"></i>
+                                        Complete Peace Of Mind
+                                    </a>
+                                </li>
+								  
+                            </ul>
+                        </div>
+
+                        <div class="col-xs-12 col-md-8">
+                            <div class="tabpanel">
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane active" id="tab1">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <img src="images/business-3.jpg" alt="" class="img-responsive">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, consequuntur quis accusantium exercitationem adipisci vitae eaque labore. Autem tempora nobis, rem ipsam asperiores sunt, excepturi tenetur vitae, temporibus enim accusantium?</p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, consequuntur quis accusantium or sit amet, consectetur adipisicing elit. Natus, consequuntur quis accusa</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="tab2">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil praesentium reat quibusdam doloremque officiis recusandae esse magnam facere quod, asperiores ea sequi eum excepturi maiores ex, </p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil praesentium recusandae ab facere nobis quam aliquam deserunt esse natus maiores evenietusandae esse magnam facere quod, asperiores ea sequi eum excepturi maiores ex, </p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/business-3.jpg" alt="" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="tab3">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <img src="images/business-3.jpg" alt="" class="img-responsive">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, consequuntur quis accusantium exercitationem adipisci vitae eaque labore. Autem tempora nobis, rem ipsam asperiores sunt, excepturi tenetur vitae, temporibus enim accusantium?</p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, consequuntur quis accusantium sit amet, consectetur adipisicing elit. Nihil praesentium recusandae ab facere nobis quam aliquam deserunt esse natus maiores evenietusandae esse magnam facere quod, asperiores ea sequi eum excepturi m </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!--
-            End Home Banner
-            ==================================== -->
+        </div>
+    </section>
+			
+			
+			
 
-         
+    <section style="padding-top:100px;"></section>
 
-			<section style="padding-top:100px;"></section>
-
-
-   
-            <!--
+    <!--
             footer
             ==================================== -->
-            <footer class="footer">
-                <div class="container">
-                    <p class="copyright pull-left item_left"> Copyright &copy; 2017 <span style="color:#0b578f">PAY</span><span style="color:#fdcf10">NET</span>.  All rights reserved. </p>
-                    <ul class="pull-right social-links text-center item_right">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    </ul>
-                </div>
-            </footer>
-            <!--
-            End footer
-            ==================================== -->
-            
-      
+    <footer class="footer">
+        <div class="container">
+            <p class="copyright pull-left item_left"> Copyright &copy; 2017 <span style="color:#0b578f">PAY</span><span style="color:#fdcf10">NET</span>. All rights reserved. </p>
+            <ul class="pull-right social-links text-center item_right">
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            </ul>
+        </div>
+    </footer>
 
-        <!--
-        JavaScripts
-        ========================== -->
-        <!-- main jQuery -->
-        <script type="text/javascript" src="js/vendor/modernizr-2.6.2.min.js"></script>
-        <script type="text/javascript" src="js/vendor/jquery-1.11.1.min.js"></script>
-        <script type="text/javascript" src="js/jquery-migrate.min.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="js/jquery.singlePageNav.min.js"></script>
-        <script type="text/javascript" src="js/jquery-ui.min.js"></script>
-        <script type="text/javascript" src="js/jquery.appear.js"></script>
-        <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
-        <script type="text/javascript" src="js/vendor/owl.carousel.min.js"></script>
-        <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
-        <script type="text/javascript" src="js/jquery.nav.js"></script>
-        <script type="text/javascript" src="js/lightbox.min.js"></script>
-        <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
-        <script type="text/javascript" src="js/jquery-validation.min.js"></script>
-        <script type="text/javascript" src="js/jquery.easing.min.js"></script>
-        <script type="text/javascript" src="js/form.min.js"></script>
-        <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-        <script type="text/javascript" src="js/jquery.multiscroll.min.js"></script>
-        <script type="text/javascript" src="js/jquery-countTo.js"></script>
-        <script type="text/javascript" src="js/jquery.mb.YTPlayer.min.js"></script>
-        <script type="text/javascript" src="js/jflickrfeed.min.js"></script>
-        <script type="text/javascript" src="js/jquery.selectbox-0.2.min.js"></script>
-        <script type="text/javascript" src="js/tweetie.min.js"></script>
-        <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
-      
-        <script type="text/javascript" src="js/bootstrap-progressbar.min.js"></script>
-        <script type="text/javascript" src="js/jquery.circliful.min.js"></script>
-        <script type="text/javascript" src="js/jquery.easypiechart.js"></script>
-        <script type="text/javascript" src="js/masonry.pkgd.js"></script>
-        <script type="text/javascript" src="js/jquery.tubular.1.0.js"></script>
-        <script type="text/javascript" src="js/kenburned.min.js"></script>
-        <script type="text/javascript" src="js/mediaelement-and-player.min.js"></script>
-		
-        <!-- shortcode scripts -->
-        <script type="text/javascript" src="shortcodes/js/jquery.nivo.slider.pack.js"></script>
-        <script type="text/javascript" src="shortcodes/js/jquery.flexslider-min.js"></script>
-        <script type="text/javascript" src="shortcodes/js/jquery.prettyPhoto.js"></script>
-        <script type="text/javascript" src="shortcodes/js/jquery.slicebox.min.js"></script>
-        <script type="text/javascript" src="shortcodes/js/jquery.eislideshow.js"></script>
-        <script type="text/javascript" src="shortcodes/js/camera.min.js"></script>
-        <script type="text/javascript" src="shortcodes/js/jquery.zaccordion.min.js"></script>
-        <script type="text/javascript" src="shortcodes/js/main.js"></script>
-        <script type="text/javascript" src="js/jquery.prettySocial.min.js"></script>
-        <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
-        <script type="text/javascript" src="js/jquery.zoom.min.js"></script>
-        <script type="text/javascript" src="js/jquery.countdown.js"></script>
-        <script type="text/javascript" src="js/jquery.webticker.min.js"></script>
-        <script type="text/javascript" src="js/jquery.timepicker.min.js"></script>
-        <script type="text/javascript" src="js/selectize.min.js"></script>
-        <!-- image filter -->
-        <script type="text/javascript" src="js/img-filter/jquery.gray.min.js"></script>
-        <!-- // image filter -->
-        <script type="text/javascript" src="js/wow.min.js"></script>
-        <script src="syntax-highlighter/scripts/prettify.min.js"></script>
-        <script type="text/javascript" src="js/main.js"></script>
-	
-        
+    <script type="text/javascript" src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script type="text/javascript" src="js/vendor/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.singlePageNav.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/jquery.appear.js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="js/vendor/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nav.js"></script>
+    <script type="text/javascript" src="js/lightbox.min.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery-validation.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="js/form.min.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="js/jquery.multiscroll.min.js"></script>
+    <script type="text/javascript" src="js/jquery-countTo.js"></script>
+    <script type="text/javascript" src="js/jquery.mb.YTPlayer.min.js"></script>
+    <script type="text/javascript" src="js/jflickrfeed.min.js"></script>
+    <script type="text/javascript" src="js/jquery.selectbox-0.2.min.js"></script>
+    <script type="text/javascript" src="js/tweetie.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
 
+    <script type="text/javascript" src="js/bootstrap-progressbar.min.js"></script>
+    <script type="text/javascript" src="js/jquery.circliful.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easypiechart.js"></script>
+    <script type="text/javascript" src="js/masonry.pkgd.js"></script>
+    <script type="text/javascript" src="js/jquery.tubular.1.0.js"></script>
+    <script type="text/javascript" src="js/kenburned.min.js"></script>
+    <script type="text/javascript" src="js/mediaelement-and-player.min.js"></script>
 
-  
-        
+    <script type="text/javascript" src="shortcodes/js/jquery.nivo.slider.pack.js"></script>
+    <script type="text/javascript" src="shortcodes/js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="shortcodes/js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="shortcodes/js/jquery.slicebox.min.js"></script>
+    <script type="text/javascript" src="shortcodes/js/jquery.eislideshow.js"></script>
+    <script type="text/javascript" src="shortcodes/js/camera.min.js"></script>
+    <script type="text/javascript" src="shortcodes/js/jquery.zaccordion.min.js"></script>
+    <script type="text/javascript" src="shortcodes/js/main.js"></script>
+    <script type="text/javascript" src="js/jquery.prettySocial.min.js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="js/jquery.zoom.min.js"></script>
+    <script type="text/javascript" src="js/jquery.countdown.js"></script>
+    <script type="text/javascript" src="js/jquery.webticker.min.js"></script>
+    <script type="text/javascript" src="js/jquery.timepicker.min.js"></script>
+    <script type="text/javascript" src="js/selectize.min.js"></script>
 
-    </body>
+    <script type="text/javascript" src="js/img-filter/jquery.gray.min.js"></script>
+
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script src="syntax-highlighter/scripts/prettify.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
 </html>
